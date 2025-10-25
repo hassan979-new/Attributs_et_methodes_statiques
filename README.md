@@ -69,10 +69,11 @@ Classe Utilisateur avec :
 ## 🖥️ Example Execution
 
 ### Compteur d’objets : 
-
+- <img width="480" height="504" alt="image" src="https://github.com/user-attachments/assets/dfd2c004-d03a-421a-95d4-90f9f880d583" />
 ### Taux de TVA partagé :
-
+- <img width="480" height="504" alt="image" src="https://github.com/user-attachments/assets/21fddbbf-f6fb-4167-9c3e-16a9d65f391a" />
 ### Gestion des sessions utilisateurs :
+- <img width="480" height="504" alt="image" src="https://github.com/user-attachments/assets/dceaaff5-6f72-4897-ab85-927208bb6313" />
 ## 💡 Concepts Practiced
 
 - L’usage des attributs statiques pour le comptage global ou le paramétrage partagé
