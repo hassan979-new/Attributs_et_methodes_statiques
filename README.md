@@ -1,3 +1,90 @@
-<img width="445" height="476" alt="image" src="https://github.com/user-attachments/assets/50566cb9-087a-4dcc-aa6b-e099a9495bf4" />
-<img width="443" height="478" alt="image" src="https://github.com/user-attachments/assets/3243f225-1d6d-4ff6-a83b-311af97fde69" />
-<img width="445" height="476" alt="image" src="https://github.com/user-attachments/assets/182c7c02-a510-4523-a710-d63b33cea7e6" />
+
+# 🧮 **Attributs et méthodes statiques**
+
+## 📘 Description
+
+Ce document regroupe plusieurs projets C++ illustrant des concepts fondamentaux de la programmation orientée objet :
+
+- Utilisation des attributs et méthodes statiques
+
+- Suivi du nombre d’objets instanciés
+
+- Encapsulation des données
+
+- Calculs dynamiques (TVA, prix TTC)
+
+- Association entre objets et affichage structuré
+## 📂 Project Structure
+````
+projets
+├── Boite/
+│   └── boite.cpp
+├── Produit/
+│   └── produit.cpp
+├── Utilisateur/
+│   └── utilisateur.cpp
+└── README.md
+````
+
+
+## ⚙️ Features
+
+### **1.** Boîte – Suivi du nombre d’objets
+Classe Boite avec :
+
+- Attributs privés : longeur, largeur, heuteur
+
+- Attribut statique nbBoite pour compter les instances
+
+- Constructeur paramétré qui incrémente le compteur
+
+- Méthode statique getNombreBoites() pour afficher le total
+
+### **2.** Produit – Calcul du prix TTC avec TVA statique
+Classe Produit avec :
+
+- Attributs privés : nom, prixHT
+
+- Attribut statique tauxTVA initialisé à 20%
+
+Méthodes :
+
+- getPrixTTC() → calcule le prix TTC
+
+- modifierTVA() → modifie le taux global
+
+- afficher() → affiche les informations du produit
+### **3.** Utilisateur – Suivi dynamique des connexions
+Classe Utilisateur avec :
+
+- Attributs privés : nom, role
+
+- Attribut statique nbUtilisateursConnectes pour suivre les connexions
+
+- Constructeur qui incrémente le compteur
+
+- Méthode statique getNbUtilisateursConnectes() pour consulter le total
+
+- Destructeur qui décrémente le compteur et affiche le nombre restant
+## 🖥️ Example Execution
+
+### Compteur d’objets : 
+
+### Taux de TVA partagé :
+
+### Gestion des sessions utilisateurs :
+## 💡 Concepts Practiced
+
+- L’usage des attributs statiques pour le comptage global ou le paramétrage partagé
+
+- La structuration claire des classes avec encapsulation
+
+- Le suivi du cycle de vie des objets
+
+- L’interaction entre objets et affichage dynamique
+## 🧑‍💻 Author
+
+- 👤 Agouram Hassan
+- 🏫 Fondamentaux et Concepts Avancés de la Programmation Java – TP1
+- 🎓 Instructor	Mr.LACHGAR
+- 📅 25	October 2025
